@@ -1,6 +1,6 @@
 import 'dart:async';
 import 'package:dio/dio.dart';
-import 'blah.dart';
+import 'statuscode.dart';
 import 'dio_connectivity_request_retrier.dart';
 
 typedef RetryEvaluator = FutureOr<bool> Function(DioError error, int attempt);
